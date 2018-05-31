@@ -1,0 +1,30 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans+Condensed|Lato|Open+Sans|Roboto|Slabo+27px');
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'IBM Plex Sans Condensed', sans-serif;
+// font-family: 'Lato', sans-serif;
+// font-family: 'IBM Plex Mono', monospace;
+// font-family: 'Slabo 27px', serif;
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-size: 12pt;
+}
+
+.navbar {
+  background-color:#8ad3ff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+
+  a.nav-link{
+    vertical-align: middle;
+    color: #242424;
+  }
+}
